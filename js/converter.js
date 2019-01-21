@@ -17,4 +17,5 @@ function convert(){
   var bitcoinOutput = satoshiInput * .00000001;
   document.getElementById('outputText').textContent = bitcoinOutput + ' Bitcoin';
   document.getElementById('ValueUSD').textContent = '$'+(bitcoinOutput * currentprice);
+  document.getElementById('currentpriceofBTC').textContent = '$'+currentprice;
 }
